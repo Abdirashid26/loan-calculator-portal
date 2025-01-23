@@ -1,0 +1,9 @@
+version: '2.0'
+
+
+services:
+  loan-ui:
+    build: .
+    restart: always
+    ports:
+      - 3500:80
